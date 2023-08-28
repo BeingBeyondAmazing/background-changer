@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition-duration: 1s;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    cursor: pointer;
+    height: 10vh;
+    width: 10vw;
+    min-width: 24px;
+    min-height: 18px;
+    transition-duration: 1s;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    border-color: white;
+}
